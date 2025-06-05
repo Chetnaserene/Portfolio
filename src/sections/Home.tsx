@@ -1,4 +1,5 @@
 import React from 'react';
+import profilePic from '../assets/images/chetnaserene.jpg';
 
 const Home: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const Home: React.FC = () => {
       <div className="container mx-auto px-4 text-center">
         <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-6 overflow-hidden rounded-full border-4 border-white shadow-lg fade-in">
           <img 
-            src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg" 
+            src={profilePic} 
             alt="Chetna Godara" 
             className="w-full h-full object-cover"
           />
